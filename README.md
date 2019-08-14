@@ -1,6 +1,8 @@
 # About my work
 I study sensory plasticity in :rat: auditory cortex using a combination of sound exposure :sound:, behaviour :chart_with_upwards_trend:, electrophysiology :electric_plug:, and anatomy :microscope:.
 
+TLDR; check out my [to-do list](#My-to-do-list)
+
 
 ## What kind of data do I use?
 * Behavior
@@ -32,7 +34,7 @@ There are more measurements than experimental subjects, and measurements belong 
 
 * [ ] Import my matlab file with behav data
 
-    * [ ] Copy file
+    * [X] Copy file
     * [ ] Use from scipy.io import loadmat
 
 * [ ] Finalize analysis of e-phys data

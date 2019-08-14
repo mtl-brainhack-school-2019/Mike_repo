@@ -28,7 +28,7 @@ There are more measurements than experimental subjects, and measurements belong 
 
 
 ## My to-do list
-* [ ] 1. Make sure my data is compatible with partial-least-squares analysis
+* [X] 1. Make sure my data is compatible with partial-least-squares analysis
 
 
 * [ ] 2. Finalize analysis of e-phys data

@@ -32,3 +32,8 @@ There are more measurements than experimental subjects, and measurements belong 
 
 
 * [ ] 2. Finalize analysis of e-phys data
+
+
+# Some resources
+
+I'll be keeping a list of useful commands I learn [here in my GH repo](https://github.com/mtl-brainhack-school-2019/Mike_repo/blob/master/Code_snippets.md).

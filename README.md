@@ -32,6 +32,9 @@ There are more measurements than experimental subjects, and measurements belong 
 
 * [ ] Import my matlab file with behav data
 
+    * [ ] Copy file
+    * [ ] Use from scipy.io import loadmat
+
 * [ ] Finalize analysis of e-phys data
 
 * [ ] Import my matlab file with e-phys data

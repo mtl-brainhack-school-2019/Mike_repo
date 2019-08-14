@@ -22,5 +22,13 @@ For each training session, we compute performance metrics such as hit rate, fals
 There are more measurements than experimental subjects, and measurements belong to distinct datasets (behavior and electrophysiology). 
 
 # Objectives
+## Main goals
 1. Use multivariate analysis to understand the relationship between my two datasets. 
-2. Validate said analysis using a "leave-one-ouyt" approach
+2. Validate said analysis using a "leave-one-out" approach
+
+
+## My to-do list
+* [ ] 1. Make sure my data is compatible with partial-least-squares analysis
+
+
+* [ ] 2. Finalize analysis of e-phys data

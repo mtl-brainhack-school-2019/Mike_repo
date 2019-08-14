@@ -1,5 +1,5 @@
 # About my work
-I study sensory plasticity in auditory cortex using a combination of sound exposure, behaviour, electrophysiology, and anatomy.
+I study sensory plasticity in :rat: auditory cortex using a combination of sound exposure :sound:, behaviour :chart_with_upwards_trend:, electrophysiology :electric_plug:, and anatomy :microscope:.
 
 
 ## What kind of data do I use?

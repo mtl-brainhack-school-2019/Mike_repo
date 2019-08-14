@@ -28,11 +28,13 @@ There are more measurements than experimental subjects, and measurements belong 
 
 
 ## My to-do list
-* [X] 1. Make sure my data is compatible with partial-least-squares analysis
+* [X] Make sure my data is compatible with partial-least-squares analysis
 
+* [ ] Import my matlab file with behav data
 
-* [ ] 2. Finalize analysis of e-phys data
+* [ ] Finalize analysis of e-phys data
 
+* [ ] Import my matlab file with e-phys data
 
 # Some resources
 

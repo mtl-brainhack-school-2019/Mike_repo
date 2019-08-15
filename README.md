@@ -35,16 +35,19 @@ There are more measurements than experimental subjects, and measurements belong 
 * [ ] Import my matlab file with behav data
 
     * [X] Copy file
-    * [X] Use `from scipy.io import loadmat`
-    * [X] My first .py file!
+    * [X] Import as python object: use `from scipy.io import loadmat`
+    * [X] Save code, that's my first .py file!
 
-* [ ] Finalize analysis of e-phys data
-    * [] Save in a matlab `struct` to be able to import it the same way I'm importing behav data
+* [ ] Import e-phys data
+    * [ ] Finalize analysis of e-phys data
+    * [ ] Save data a matlab `struct` to be able to import it the same way I'm importing behav data
+    * [ ] Copy file
+    * [ ] Import as python object
 
-* [ ] Import my matlab file with e-phys data
+* [ ] PLS analysis
 
 # Some resources
 
-I'll be keeping a list of useful commands I learn [here in my GH repo](https://github.com/mtl-brainhack-school-2019/Mike_repo/blob/master/Code_snippets.md).
+I'll be keeping a list of useful commands and "lifehacks" I learn [here in my GH repo](https://github.com/mtl-brainhack-school-2019/Mike_repo/blob/master/Code_snippets.md).
 
 Aaaaand a random [list of errors](https://github.com/mtl-brainhack-school-2019/Mike_repo/blob/master/error-messages.md) I'm learning from in the process :shrug:

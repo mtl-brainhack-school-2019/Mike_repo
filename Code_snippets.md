@@ -21,21 +21,11 @@ Code snipets I'll need
     nth_rat = 1;
 
 
-# A memory problem with VS Code...
-    # Error message: "Visual Studio Code is unable to watch for file changes in this large workspace" (error ENOSPC)
-    # What is this about?
+# Adding SSH to your github account
+    https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account
 
-    When you see this notification, it indicates that the VS Code file watcher is running out of handles because the workspace is large and contains many files. The current limit can be viewed by running:
-
-    cat /proc/sys/fs/inotify/max_user_watches
-
-    The limit can be increased to its maximum by editing /etc/sysctl.conf and adding this line to the end of the file:
-
-    fs.inotify.max_user_watches=524288
-
-    more at https://code.visualstudio.com/docs/setup/linux#_visual-studio-code-is-unable-to-watch-for-file-changes-in-this-large-workspace-error-enospc
-
-
+# alias commands for git/github
+    https://stackoverflow.com/questions/19595067/git-add-commit-and-push-commands-in-one?noredirect=1&lq=1
 
 
 # Objective

@@ -1,26 +1,3 @@
-Code snipets I'll need
-
-# To import data from matlab
- 
-    from scipy.io import loadmat
-    fl = loadmat('/path/to/matfile.mat')
-    # this produces a dictionary of your matfile.
-    # To see the structures:
-    fl.keys()
-    # To access data in the structure
-    fl['key']
-
-# Import data (importing library)
-    # Description    
-    import scipy.io as sio
-    
-    behavfile = loadmat('./datafiles/Sessions_select_20190415_01_pA_15-20_binsof5.mat')
-    
-    behavdata = behavfile['Sessions_select'];
-
-    nth_rat = 1;
-
-
 # A memory problem with VS Code...
     # Error message: "Visual Studio Code is unable to watch for file changes in this large workspace" (error ENOSPC)
     # What is this about?
@@ -37,7 +14,7 @@ Code snipets I'll need
 
 
 
+# Computer dead... not much hope
+    But see https://ubuntuforums.org/showthread.php?t=858104
 
-# Objective
-    # Description    
-    newObj = some_comand(someObj);
+    

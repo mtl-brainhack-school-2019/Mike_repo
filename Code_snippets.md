@@ -27,6 +27,23 @@ Code snipets I'll need
 # alias commands for git/github
     https://stackoverflow.com/questions/19595067/git-add-commit-and-push-commands-in-one?noredirect=1&lq=1
 
+    to create:
+    git config --global alias.add-com-push '!git add . && git commit -a -m "commit" && git push'
+
+    (base) mike@home:~/Brainhack2019/Mike_repo$ git config --get-regexp alias
+    alias.addcom !git add -A && git commit -m
+
+    to change:
+    git config --global alias.addcom '!git add -u && git commit -a -m "commit"'
+
+    git config --global alias.addcom '!git add -u && git commit -a -m'
+
+    to delete alias:
+    (base) mike@home:~/Brainhack2019/Mike_repo$ git config --global --unset alias.st
+
+# Remove a folder from git (stop tracking, and delete from github)
+
+    (base) mike@home:~/Brainhack2019/Mike_repo$ git rm -r --cached datafiles/
 
 # Objective
     # Description    

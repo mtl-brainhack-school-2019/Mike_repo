@@ -11,13 +11,11 @@ TLDR; check out my [to-do list](#My-to-do-list)
 
 * Behavior
 
-**Description**: I use an auditory oddball discrimination task, in which subjects are presented with two kind of stimuli. The first one is the _non-target_ stimulus, which consists in a train of six identical tones \(which are referred to as standard tones\); e.g., S-S-S-S-S-S 
+**Description**: I use an auditory oddball discrimination task, in which subjects are presented with two kind of stimuli. The first one is the _non-target_ stimulus, which consists in a train of six identical tones \(which are referred to as standard tones; e.g., S-S-S-S-S-S\). The second type of stimulus is the _target_, in which one of the last four tones in the sequence \(chosen at random\) is replaced by a different "oddball" tone (e.g., S-S-S-O-S-S).
 
-The second type of stimulus is the _target_, in which one of the last four tones in the sequence \(chosen at random\) is replaced by a different "oddball" tone; e.g., S-S-S-O-S-S
+Importantly, the task is adaptive. If the subject adequately identifies the target tone (hit), difficulty is increased; i.e., the level goes up and the odball becomes closer to the standard tones. If the subject makes a mistake (miss, false positive), the level goes down. If the subject correctly ignores a non-target (withhold), there is no change in level.
 
-Importantly, the task is adaptive. If the subject adequately identifies the target tone (hit), difficulty is increased (the level goes up and the odball becomes closer to the standard tones). If the subject makes a mistake (miss, false positive), the level goes down. If the subject correctly ignores a non-target, there is no change in level.
-
-For each training session, we compute performance metrics such as hit rate, false positive rate, d-prime, level reached.
+For each training session, we compute performance metrics such as hit rate, false positive rate, d-prime, or maximum level reached.
 
 * Electrophysiology
 

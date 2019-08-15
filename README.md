@@ -1,5 +1,5 @@
 # About my work
-I study sensory plasticity in :rat: auditory cortex using a combination of sound exposure :sound:, behaviour :chart_with_upwards_trend:, electrophysiology :electric_plug:, and anatomy :microscope:.
+I study sensory plasticity in :rat: auditory cortex using a combination of sound exposure :sound:, behaviour :chart_with_upwards_trend:, genetics :man_scientist:,  electrophysiology :zap:, and anatomy :microscope:.
 
 TLDR; check out my [to-do list](#My-to-do-list)
 
@@ -32,22 +32,25 @@ There are more measurements than experimental subjects, and measurements belong 
 ## My to-do list
 * [X] Make sure my data is compatible with partial-least-squares analysis
 
-* [ ] Import my matlab file with behav data
+* [X] Import my matlab file with behav data
 
     * [X] Copy file
     * [X] Import as python object: use `from scipy.io import loadmat`
-    * [X] Save code, that's my first .py file!
+    * [X] Save code, that's my first `.py` file!
 
 * [ ] Import e-phys data
     * [ ] Finalize analysis of e-phys data
-    * [ ] Save data a matlab `struct` to be able to import it the same way I'm importing behav data
+    * [ ] Save data as matlab `struct` to be able to import it the same way I'm importing behav data
     * [ ] Copy file
     * [ ] Import as python object
 
-* [ ] PLS analysis
+* [ ] Multivariate analysis
+    * [ ] Run PLS
+    * [ ] Cross-validate
+    * [ ] Visualize, report, interpret...
 
 # Some resources
 
 I'll be keeping a list of useful commands and "lifehacks" I learn [here in my GH repo](https://github.com/mtl-brainhack-school-2019/Mike_repo/blob/master/Code_snippets.md).
 
-Aaaaand a random [list of errors](https://github.com/mtl-brainhack-school-2019/Mike_repo/blob/master/error-messages.md) I'm learning from in the process :shrug:
+Also, a random [list of errors](https://github.com/mtl-brainhack-school-2019/Mike_repo/blob/master/error-messages.md) I'm learning from in the process :man_shrugging:

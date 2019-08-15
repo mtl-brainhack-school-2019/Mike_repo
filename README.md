@@ -1,10 +1,14 @@
 # About my work
-I study sensory plasticity in :rat: auditory cortex using a combination of sound exposure :sound:, behaviour :chart_with_upwards_trend:, genetics :man_scientist:,  electrophysiology :zap:, and anatomy :microscope:.
+I study sensory plasticity in rat auditory cortex using a combination of sound exposure :sound:, behaviour :chart_with_upwards_trend:, genetics :man_scientist:,  electrophysiology :zap:, and anatomy :microscope:.
 
 TLDR; check out my [to-do list](#My-to-do-list)
 
 
 ## What kind of data do I use?
+* Experimental subjects
+
+**Description**: n = 24 subjects, 45+ training sesions each, 10+ e-phys parameters each (see Behaviour and Electrophysiology, below)
+
 * Behavior
 
 **Description**: I use an auditory oddball discrimination task, in which subjects are presented with two kind of stimuli. The first one is the _non-target_ stimulus, which consists in a train of six identical tones \(which are referred to as standard tones\); e.g., S-S-S-S-S-S 
@@ -30,7 +34,7 @@ There are more measurements than experimental subjects, and measurements belong 
 
 
 ## My to-do list
-* [X] Make sure my data is compatible with partial-least-squares analysis
+* [X] Make sure my data is compatible with partial-least-squares analysis (PLS)
 
 * [X] Import my matlab file with behav data
 

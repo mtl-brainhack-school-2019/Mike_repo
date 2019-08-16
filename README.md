@@ -1,7 +1,8 @@
 # About my work
-I study sensory plasticity in rat auditory cortex using a combination of sound exposure :sound:, behaviour :chart_with_upwards_trend:, genetics :man_scientist:,  electrophysiology :zap:, and anatomy :microscope:.
+<!--- I study sensory plasticity in rat auditory cortex using a combination of sound exposure :sound:, behaviour :chart_with_upwards_trend:, genetics :man_scientist:,  electrophysiology :zap:, and anatomy :microscope:. --->
+I study sensory plasticity in rat auditory cortex using a combination of sound exposure, behaviour, genetics,  electrophysiology, and anatomy.
 
-TLDR; check out my [to-do list](#My-to-do-list)
+**TLDR**; check out my [to-do list](#My-to-do-list).
 
 ## Background
 
@@ -16,6 +17,7 @@ TLDR; check out my [to-do list](#My-to-do-list)
 <br/>
 
 ## What kind of data do I use?
+
 * Experimental subjects
 
 **Description**: n = 24 subjects, 45+ training sesions each, 10+ e-phys parameters each (see Behaviour and Electrophysiology, below)
@@ -35,7 +37,7 @@ Importantly, the task is adaptive. If the subject adequately identifies the targ
 ![](./images/training-results.png)
 
 For each training session, we compute performance metrics such as hit rate, false positive rate, d-prime, or maximum level reached.
-<br/>
+<br/><br/>
 
 * Electrophysiology
 
@@ -47,6 +49,7 @@ For each training session, we compute performance metrics such as hit rate, fals
 ## What problems do I want to solve?
 
 There are more measurements than experimental subjects, and measurements belong to distinct datasets (behavior and electrophysiology). 
+<br/><br/>
 
 # Objectives
 ## Main goals

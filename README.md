@@ -12,7 +12,7 @@ I study sensory plasticity in rat auditory cortex using a combination of sound e
    50% basic, _CINVESTAV - Neuropharmacology Unit_
    
 * Research associate, _Univ Aut de Nuevo Leon, Monterrey, Mexico_ (2011-2012)     
-* PhD student, _Mcgill University_ (current)
+* PhD student in Neuroscience, _Mcgill University_ (current)
 
 <br/>
 
@@ -20,37 +20,37 @@ I study sensory plasticity in rat auditory cortex using a combination of sound e
 
 * Experimental subjects
 
-**Description**: n = 24 subjects, 45+ training sesions each, 10+ e-phys parameters each (see Behaviour and Electrophysiology, below)
+  **Description**: n = 24 subjects, 45+ training sesions each, 10+ e-phys parameters each (see Behaviour and Electrophysiology, below)
 <br/>
 <br/>
 
 * Behavior
 
-<!--![](./images/training-paradigm.png)-->
-<img src="./images/training-paradigm.png" alt="BM-slide" width="500">
+    <!--![](./images/training-paradigm.png)-->
+  <img src="./images/training-paradigm.png" alt="BM-slide" width="600">
 
-**Description**: I use an auditory oddball discrimination task, in which subjects are presented with two kind of stimuli. The first one is the _non-target_ stimulus, which consists in a train of six identical tones \(which are referred to as standard tones; e.g., S-S-S-S-S-S\). The second type of stimulus is the _target_, in which one of the last four tones in the sequence \(chosen at random\) is replaced by a different "oddball" tone (e.g., S-S-S-O-S-S).
+   **Description**: I use an auditory oddball discrimination task, in which subjects are presented with two kind of stimuli. The first one is the _non-target_ stimulus, which consists in a train of six identical tones \(which are referred to as standard tones; e.g., S-S-S-S-S-S\). The second type of stimulus is the _target_, in which one of the last four tones in the sequence \(chosen at random\) is replaced by a different "oddball" tone (e.g., S-S-S-O-S-S).
 
-Importantly, the task is adaptive. If the subject adequately identifies the target tone (hit), difficulty is increased; i.e., the level goes up and the odball becomes closer to the standard tones. If the subject makes a mistake (miss, false positive), the level goes down. If the subject correctly ignores a non-target (withhold), there is no change in level.
+    Importantly, the task is adaptive. If the subject adequately identifies the target tone (hit), difficulty is increased; i.e., the level goes up and the odball becomes closer to the standard tones. If the subject makes a mistake (miss, false positive), the level goes down. If the subject correctly ignores a non-target (withhold), there is no change in level.
 
-<!--- Genetics, groups --->
-<!--- ![](./images/training-intervention.png) --->
+    <!--- Genetics, groups --->
+    <!--- ![](./images/training-intervention.png) --->
 
-![](./images/training-results.png)
+  <img src="./images/training-results.png" alt="BM-slide" width="600">
 
-For each training session, we compute performance metrics such as hit rate, false positive rate, d-prime, or maximum level reached.
+
+    For each training session, we compute performance metrics such as hit rate, false positive rate, d-prime, or maximum level reached.
 <br/><br/>
 
 * Electrophysiology
 
-![](./images/ephys-acquisition.png)
+    ![](./images/ephys-acquisition.png)
 <br/>
 <br/>
-<img src="./images/xcorr.png" alt="BM-slide" width="500">
-
+    <img src="./images/xcorr.png" alt="BM-slide" width="600">  
 from: Thomas et al., 2019, Cereb Cortex
 
-**Description**: We use a microelectrode array to record simultaneously from 64 positions in auditory cortex. Once the electrodes are in place, we present a set of 60+ frequencies at different intensities \(from 0 to 70 dB\), which allows us to reconstruct a receptive fields (RF) for each recording position. Each RF gives us information about the selectivity of each recording position, as measured by bandwidth (frequency selectivity at each sound intensity) and intensity threshold (in dB). We can also compute other parameters including onset latencies, RF overlap between neighboring sites, and synchronization during spontaneous activity,
+    **Description**: We use a microelectrode array to record simultaneously from 64 positions in auditory cortex. Once the electrodes are in place, we present a set of 60+ frequencies at different intensities \(from 0 to 70 dB\), which allows us to reconstruct a receptive fields (RF) for each recording position. Each RF gives us information about the selectivity of each recording position, as measured by bandwidth (frequency selectivity at each sound intensity) and intensity threshold (in dB). We can also compute other parameters including onset latencies, RF overlap between neighboring sites, and synchronization during spontaneous activity,
 <br/>
 
 ## What problems do I want to solve?
@@ -62,11 +62,8 @@ There are more measurements than experimental subjects, and measurements belong 
 ## Main goals
 1. Use multivariate analysis to understand the relationship between my two datasets.  
 <br/>
-<img src="./images/PLS-basics.png" alt="BM-slide" width="600">
-<!--
-![](./images/PLS-basics.png )
--->
-slide from Bratislav Misic's [presentation](https://doi.org/10.6084/m9.figshare.9387188.v1) @ Brainhack school 2019
+<img src="./images/PLS-basics.png" alt="BM-slide" width="600">  
+slide from Bratislav Misic's [presentation](https://bit.ly/2KUzAx0) @ Brainhack school 2019
 <br/>
 
 2. Cross-validate (using a "leave-one-out" approach?)
@@ -106,4 +103,4 @@ Also, a random [list of errors](https://github.com/mtl-brainhack-school-2019/Mik
 <img src="http://www.vanier.gc.ca/images/logo_vanier-en.jpg" width="200">
 <img src="http://www.cihr-irsc.gc.ca/images/leaf-cihr-colour-en.jpg" width="200">
 <img src="https://cdn2.euraxess.org/sites/default/files/news/conacyt_mex.png" width="400">
-</p>
+</p>s

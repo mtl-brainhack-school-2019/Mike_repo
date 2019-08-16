@@ -54,13 +54,13 @@ There are more measurements than experimental subjects, and measurements belong 
 
 # Objectives
 ## Main goals
-1. Use multivariate analysis to understand the relationship between my two datasets. 
+1. Use multivariate analysis to understand the relationship between my two datasets.  
 <br/>
 <img src="./images/PLS-basics.png" alt="BM-slide" width="500">
 <!--
 ![](./images/PLS-basics.png )
-slide from: Bratislav Misic's [presentation](https://figshare.com/articles/Misic_BrainHack_2019_pptx/9387188) @ Brainhack school 2019
 -->
+slide from Bratislav Misic's [presentation](https://figshare.com/articles/Misic_BrainHack_2019_pptx/9387188) @ Brainhack school 2019
 <br/>
 
 2. Cross-validate (using a "leave-one-out" approach?)

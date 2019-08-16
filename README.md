@@ -50,9 +50,7 @@ I study sensory plasticity in rat auditory cortex using a combination of sound e
   
     <img src="./images/xcorr.png" alt="BM-slide" width="600">  
 
-
      from: Thomas et al., 2019, Cereb Cortex  
-    <br/>
     <br/>
     
     

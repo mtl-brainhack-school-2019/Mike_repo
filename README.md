@@ -56,7 +56,7 @@ There are more measurements than experimental subjects, and measurements belong 
 ## Main goals
 1. Use multivariate analysis to understand the relationship between my two datasets.  
 <br/>
-<img src="./images/PLS-basics.png" alt="BM-slide" width="500">
+<img src="./images/PLS-basics.png" alt="BM-slide" width="600">
 <!--
 ![](./images/PLS-basics.png )
 -->

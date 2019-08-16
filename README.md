@@ -99,7 +99,7 @@ Also, a random [list of errors](https://github.com/mtl-brainhack-school-2019/Mik
 # Acknowledgements
 
 <p float="left">
-<img src="http://www.vanier.gc.ca/images/logo_vanier-en.jpg" width="150">
-<img src="http://www.cihr-irsc.gc.ca/images/leaf-cihr-colour-en.jpg" width="150">
-<img src="https://cdn2.euraxess.org/sites/default/files/news/conacyt_mex.png" width="300">
+<img src="http://www.vanier.gc.ca/images/logo_vanier-en.jpg" width="175">
+<img src="http://www.cihr-irsc.gc.ca/images/leaf-cihr-colour-en.jpg" width="175">
+<img src="https://cdn2.euraxess.org/sites/default/files/news/conacyt_mex.png" width="350">
 </p>

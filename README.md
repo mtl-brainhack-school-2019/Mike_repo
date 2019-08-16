@@ -44,6 +44,8 @@ For each training session, we compute performance metrics such as hit rate, fals
 
 ![](./images/ephys-acquisition.png)
 
+![](./images/xcorr.png)
+
 **Description**: We use a microelectrode array to record simultaneously from 64 positions in auditory cortex. Once the electrodes are in place, we present a set of 60+ frequencies at different intensities \(from 0 to 70 dB\), which allows us to reconstruct a receptive fields (RF) for each recording position. Each RF gives us information about the selectivity of each recording position, as measured by bandwidth (frequency selectivity at each sound intensity) and intensity threshold (in dB). We can also compute other parameters including onset latencies, RF overlap between neighboring sites, and synchronization during spontaneous activity,
 <br/>
 

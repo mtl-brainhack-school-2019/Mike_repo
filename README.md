@@ -48,9 +48,9 @@ I study sensory plasticity in rat auditory cortex using a combination of sound e
 <br/>
 <br/>
     <img src="./images/xcorr.png" alt="BM-slide" width="600">  
-from: Thomas et al., 2019, Cereb Cortex
+from: Thomas et al., 2019, Cereb Cortex  
 
-    **Description**: We use a microelectrode array to record simultaneously from 64 positions in auditory cortex. Once the electrodes are in place, we present a set of 60+ frequencies at different intensities \(from 0 to 70 dB\), which allows us to reconstruct a receptive fields (RF) for each recording position. Each RF gives us information about the selectivity of each recording position, as measured by bandwidth (frequency selectivity at each sound intensity) and intensity threshold (in dB). We can also compute other parameters including onset latencies, RF overlap between neighboring sites, and synchronization during spontaneous activity,
+  **Description**: We use a microelectrode array to record simultaneously from 64 positions in auditory cortex. Once the electrodes are in place, we present a set of 60+ frequencies at different intensities \(from 0 to 70 dB\), which allows us to reconstruct a receptive fields (RF) for each recording position. Each RF gives us information about the selectivity of each recording position, as measured by bandwidth (frequency selectivity at each sound intensity) and intensity threshold (in dB). We can also compute other parameters including onset latencies, RF overlap between neighboring sites, and synchronization during spontaneous activity,
 <br/>
 
 ## What problems do I want to solve?
@@ -83,7 +83,7 @@ slide from Bratislav Misic's [presentation](https://bit.ly/2KUzAx0) @ Brainhack 
     * [ ] Save data as matlab `struct` to be able to import it the same way I'm importing behav data
     * [ ] Import as python object
 
-* [ ] Multivariate analysis
+*  [ ] Multivariate analysis
     * [ ] Run PLS
     * [ ] Cross-validate
     * [ ] Visualize, report, interpret...

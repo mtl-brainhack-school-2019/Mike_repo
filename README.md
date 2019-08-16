@@ -60,7 +60,7 @@ There are more measurements than experimental subjects, and measurements belong 
 <!--
 ![](./images/PLS-basics.png )
 -->
-slide from Bratislav Misic's [presentation](https://figshare.com/articles/Misic_BrainHack_2019_pptx/9387188) @ Brainhack school 2019
+slide from Bratislav Misic's [presentation](https://doi.org/10.6084/m9.figshare.9387188.v1) @ Brainhack school 2019
 <br/>
 
 2. Cross-validate (using a "leave-one-out" approach?)

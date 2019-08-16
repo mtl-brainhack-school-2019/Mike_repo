@@ -69,6 +69,7 @@ slide from Bratislav Misic's [presentation](https://doi.org/10.6084/m9.figshare.
 2. Cross-validate (using a "leave-one-out" approach?)
 <br/>
 <br/>
+
 ## My to-do list
 * [X] Make sure my data is compatible with partial-least-squares analysis (PLS)
 

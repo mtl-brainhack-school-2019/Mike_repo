@@ -22,6 +22,7 @@ I study sensory plasticity in rat auditory cortex using a combination of sound e
 
 **Description**: n = 24 subjects, 45+ training sesions each, 10+ e-phys parameters each (see Behaviour and Electrophysiology, below)
 <br/>
+<br/>
 
 * Behavior
 

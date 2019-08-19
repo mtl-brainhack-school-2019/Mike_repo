@@ -90,9 +90,9 @@ There are more measurements than experimental subjects, and measurements belong 
 
 # Some resources
 
-I'll be keeping a list of useful commands and "lifehacks" I learn [here in my GH repo](./resources).
+I'll be keeping a list of useful commands and "lifehacks" I learn [here in my GH repo](./resources/Code_snippets.md).
 
-Also, a random [list of errors](https://github.com/mtl-brainhack-school-2019/Mike_repo/blob/master/error-messages.md) I'm learning from in the process :man_shrugging:
+Also, a random [list of errors](./resources/error-messages.md) I'm learning from in the process :man_shrugging:
 
 <br/><br/>
 

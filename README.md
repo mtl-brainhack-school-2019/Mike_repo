@@ -48,14 +48,8 @@ I study sensory plasticity in rat auditory cortex using a combination of sound e
 
    **Description**: We use a microelectrode array to record simultaneously from 64 positions in auditory cortex. Once the electrodes are in place, we present a set of 60+ frequencies at different intensities \(from 0 to 70 dB\), which allows us to reconstruct a receptive fields (RF) for each recording position. Each RF gives us information about the selectivity of each recording position, as measured by bandwidth (frequency selectivity at each sound intensity) and intensity threshold (in dB). We can also compute other parameters including onset latencies, RF overlap between neighboring sites, and synchronization during spontaneous activity,
   
-    <img src="./images/xcorr.png" alt="BM-slide" width="600">  
-
-     from: Thomas et al., 2019, Cereb Cortex  
-    <br/>
-    
-    
-
-<br/>
+    <img src="./images/xcorr.png" alt="BM-slide" width="600"><br/>from: Thomas et al., 2019, Cereb Cortex  
+    <br/><br/>
 
 ## What problems do I want to solve?
 
@@ -66,9 +60,9 @@ There are more measurements than experimental subjects, and measurements belong 
 # Objectives
 ## Main goals
 1. Use multivariate analysis to understand the relationship between my two datasets.  
+
+    <img src="./images/PLS-basics.png" alt="BM-slide" width="600"><br/>slide from Bratislav Misic's [presentation](https://bit.ly/2KUzAx0) @ Brainhack school 2019
 <br/>
-<img src="./images/PLS-basics.png" alt="BM-slide" width="600">  
-slide from Bratislav Misic's [presentation](https://bit.ly/2KUzAx0) @ Brainhack school 2019
 <br/>
 
 2. Cross-validate (using a "leave-one-out" approach?)
@@ -105,7 +99,7 @@ Also, a random [list of errors](https://github.com/mtl-brainhack-school-2019/Mik
 # Acknowledgements
 
 <p float="left">
-<img src="http://www.vanier.gc.ca/images/logo_vanier-en.jpg" width="200">
-<img src="http://www.cihr-irsc.gc.ca/images/leaf-cihr-colour-en.jpg" width="200">
-<img src="https://cdn2.euraxess.org/sites/default/files/news/conacyt_mex.png" width="400">
-</p>s
+<img src="http://www.vanier.gc.ca/images/logo_vanier-en.jpg" width="175">
+<img src="http://www.cihr-irsc.gc.ca/images/leaf-cihr-colour-en.jpg" width="175">
+<img src="https://cdn2.euraxess.org/sites/default/files/news/conacyt_mex.png" width="350">
+</p>

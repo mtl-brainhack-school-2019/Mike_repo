@@ -77,15 +77,15 @@ There are more measurements than experimental subjects, and measurements belong 
     * [X] Import as python object: use `from scipy.io import loadmat`
     * [X] Save code, that's my first `.py` file!
 
-* [ ] Import e-phys data
-    * [ ] Finalize analysis of e-phys data
-    * [ ] Save data as matlab `struct` to be able to import it the same way I'm importing behav data
-    * [ ] Import as python object
+* [X] Import e-phys data
+    * [X] Finalize analysis of e-phys data
+    * [X] Save data as matlab `struct` to be able to import it the same way I'm importing behav data (see: [.mat file](./datafiles/Training_ephys_data.mat))
+    * [X] Import as python object (see: [importdata.py](./importdata.py))
 
-*  [ ] Multivariate analysis
-    * [ ] Run PLS
-    * [ ] Cross-validate
-    * [ ] Visualize, report, interpret...
+*  [ ] Multivariate analysis (PLS)
+    * [X] Run PLS
+    * [X] Visualize, report, interpret (see: [PLS code](./PLS-analysis.py))
+    * [ ] Cross-validate (_pending*_)
 <br/>
 
 # Some resources

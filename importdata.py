@@ -6,7 +6,7 @@ import pandas as pd
 
 behavfile = sio.loadmat('./datafiles/Training_ephys_data.mat')
    
-database = behavfile['Sessions_select']
+database = behavfile['Training_ephys_data']
 
 num_sess = 45; setns = 1
 # Session_data = np.ndarray([database.size,1]);
@@ -37,14 +37,25 @@ for nth_rat in range(0,database.size):
         tmpBehav = tmpBehav[0:num_sess,:] # if I want to standardize num of sessions per subject
 
     tmpBehav = pd.DataFrame(tmpBehav, index=['session%s'%x for x in range(1,len(tmpBehav)+1)],columns=['var%s'%x for x in range(1,tmpBehav.shape[1]+1)])  
+    
+    #tag data, use real variable names instead of just 'varx'
+    tmpBehav.rename(columns={'var8':'hit-rate',
+                             'var9':'fp-rate',
+                             'var12':'d-prime',
+                             'var10':'max-lev',
+                             'var15':'max-lev-adj',},
+                             inplace=True)
+
     Session_data[tmpname] = tmpBehav
-    print('Fetched behav data from', tmpname, ',', len(tmpBehav), 'sessions')
+    #print('Fetched behav data from', tmpname, ',', len(tmpBehav), 'sessions')
 
     # This is the matrix of ephys data for my nth subject:
     tmpEphys = np.array(database[0, nth_rat]['ephys'])     # this is a numpy array
     Ephys_data[nth_rat,:] = tmpEphys
+    print('Fetched e-phys data from', tmpname)
 
 
+Ephys_pd = pd.DataFrame(Ephys_data, index=['rat%s'%x for x in range(1,database.size+1)], columns=['x-corr', 'x-corr-CNO', 'BW20', 'BW20-CNO'])
 # print('Check var status')
 
 

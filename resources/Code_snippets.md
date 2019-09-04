@@ -45,6 +45,13 @@ Code snipets I'll need
 
     (base) mike@home:~/Brainhack2019/Mike_repo$ git rm -r --cached datafiles/
 
+
+# Create a realease for my repo
+    git tag -a v1.0 -m "my version 1.0"         # create tag
+    git tag                                     # list tag(s)
+    git show v1.0                               # see details
+    git push origin v1.0                        # release the kra... repo
+
 # Objective
     # Description    
     newObj = some_comand(someObj);

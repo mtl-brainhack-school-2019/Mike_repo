@@ -76,8 +76,8 @@ for comp in range(x_scores.shape[-1]):
 import matplotlib.pyplot as plt
 
 y_corr = (Yz.T @ zscore(x_scores, ddof=1)) / (len(x_scores) - 1)
-for n, panas_correlation in enumerate(y_corr[:, 0]):
-    print('ephys parameter {:<5} r = {:>5.2f}'.format(ephys_params[n] + ':',panas_correlation))
+for n, ephys_correlation in enumerate(y_corr[:, 0]):
+    print('ephys parameter {:<5} r = {:>5.2f}'.format(ephys_params[n] + ':',ephys_correlation))
 
 fig, ax = plt.subplots(1, 1)
 ax.barh(range(len(y_corr))[::-1], width=y_corr[:, 0],)

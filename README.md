@@ -79,7 +79,7 @@ There are more measurements than experimental subjects, and measurements belong 
 
 * [X] Import e-phys data
     * [X] Finalize analysis of e-phys data
-    * [X] Save data as matlab `struct` to be able to import it the same way I'm importing behav data (see: [.mat file](./datafiles/Training_ephys_data.mat))
+    * [X] Save data as matlab `struct` to be able to import it the same way I'm importing behav data (added url to [.mat file](http://drive.google.com/uc?export=download&id=1wa7EV3SKaORW7KbXrxBftLUj6MOd7EC0))
     * [X] Import as python object (see: [importdata.py](./importdata.py))
 
 * [x] Multivariate analysis (PLS)

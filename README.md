@@ -88,6 +88,7 @@ There are more measurements than experimental subjects, and measurements belong 
     * [ ] Cross-validate (_pending*_)  <---
 
 * [X] Release my repo!     
+    * [X] Add `requirements.txt`
 
 * [ ] Future directions (Fall 2019)
     * [ ] Create jupyter notebook

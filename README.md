@@ -82,10 +82,16 @@ There are more measurements than experimental subjects, and measurements belong 
     * [X] Save data as matlab `struct` to be able to import it the same way I'm importing behav data (see: [.mat file](./datafiles/Training_ephys_data.mat))
     * [X] Import as python object (see: [importdata.py](./importdata.py))
 
-*  [ ] Multivariate analysis (PLS)
+* [x] Multivariate analysis (PLS)
     * [X] Run PLS
     * [X] Visualize, report, interpret (see: [PLS code](./PLS-analysis.py))
-    * [ ] Cross-validate (_pending*_)
+    * [ ] Cross-validate (_pending*_)  <---
+
+* [X] Release my repo!     
+
+* [ ] Future directions (Fall 2019)
+    * [ ] Create jupyter notebook
+    * [ ] Format scripts and make available in Binder or NeuroLibre
 <br/>
 
 # Some resources

@@ -4,8 +4,13 @@ import scipy.io as sio
 import numpy as np
 import pandas as pd
 
-behavfile = sio.loadmat('./datafiles/Training_ephys_data.mat')
-   
+# get file
+import urllib.request                                                                                                                       
+print('Beginning file download with urllib2...')                                                                                           
+url = 'http://drive.google.com/uc?export=download&id=1wa7EV3SKaORW7KbXrxBftLUj6MOd7EC0'                                                     
+urllib.request.urlretrieve(url, './datafiles/Training_ephys_data.mat')    
+
+behavfile = sio.loadmat('./datafiles/Training_ephys_data.mat')   
 database = behavfile['Training_ephys_data']
 
 num_sess = 45; setns = 1
@@ -47,7 +52,7 @@ for nth_rat in range(0,database.size):
                              inplace=True)
 
     Session_data[tmpname] = tmpBehav
-    #print('Fetched behav data from', tmpname, ',', len(tmpBehav), 'sessions')
+    print('Fetched behav data from', tmpname, ',', len(tmpBehav), 'sessions')
 
     # This is the matrix of ephys data for my nth subject:
     tmpEphys = np.array(database[0, nth_rat]['ephys'])     # this is a numpy array
